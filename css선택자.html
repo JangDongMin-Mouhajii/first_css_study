@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML 문서</title>
+        <!-- <style>
+            *{
+                color: red;
+            }
+        </style> -->
+        <!-- <style>
+            h1{ 
+                color: red;
+            }
+        </style> -->
+        <!-- <style>
+            p{
+                color: red;
+            }
+        </style> -->
+        <!-- <style>
+            .text{
+                color: red;
+            }
+            #gagaga{
+                color: orange;
+            }
+        </style> -->
+        <!-- <style>
+            h1, p{
+                color: brown;
+            }
+        </style> -->
+        <!-- <style>
+            h1{
+                color: red;
+            }
+            h1{
+                color: blue;
+            }
+        </style> -->
+        <!-- 위와 같이 겹치게 되면 마지막으로 선언된 선택자가 적용된다. -->
+        <style>
+            .text{ color: red;}
+            h1{ color: brown;}
+        </style>
+        <!-- 선택자 우선순위는 아이디 선택자-> 클래스 선택자-> 태그 선택자 -->
+    </head>
+    <body>
+        <h1 class="text">제목을 나타낸다!</h1>
+        <p id="gagaga">문단을 표현한다 가가가</p>
+        <p class="text">문단을 표현한다 나나나</p>
+        <p>문단을 표현한다 다다다</p>
+    </body>
+</html>
